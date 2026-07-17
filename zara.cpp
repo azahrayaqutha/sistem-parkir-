@@ -5,11 +5,11 @@ using namespace std;
 
 int hitungBiaya(int jenis, int jam)
 {
-    if (jenis == 1)      // Motor
+    if (jenis == 1)      
         return jam * 3000;
-    else if (jenis == 2) // Mobil
+    else if (jenis == 2) l
         return jam * 5000;
-    else                 // Mobil Besar
+    else                 
         return jam * 8000;
 }
 
@@ -30,7 +30,7 @@ int main()
     cout << "      SISTEM PARKIR MALL\n";
     cout << "=========================================\n";
 
-    // Login sederhana
+    
     cout << "\n===== LOGIN PETUGAS =====\n";
     cout << "Username : ";
     cin >> username;
